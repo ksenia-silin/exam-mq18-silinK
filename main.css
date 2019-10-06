@@ -144,7 +144,7 @@ body {
   padding-top: 60px;
 }
 
-.person-title {
+.persons-title {
   font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
@@ -381,7 +381,7 @@ body {
     background-color: #ffffff; 
   }
 
-  .person-title {
+  .persons-title {
     font-size: 80px;
   }
 
@@ -452,14 +452,14 @@ body {
     font-size: 32px;
   }
 
-  .person-title {
+  .persons-title {
     padding-top: 85px;
     padding-bottom: 0;
     padding-left: 43%;
     padding-right: 32px;
   }
 
-  .players .person-title {
+  .players .persons-title {
     padding-left: 32px;
   }
 
@@ -604,7 +604,7 @@ body {
     margin-top: 5px;
   }
 
-  .person-title {
+  .persons-title {
     padding-top: 116px;
     padding-bottom: 0;
     padding-right: 192px;
@@ -718,7 +718,7 @@ body {
   .footer .header-wrap  {
     padding-bottom: 51px;
   }
-  
+
   .footer .buttons {
     margin-bottom: 262px;
   }
