@@ -38,7 +38,7 @@
               </svg>
               <ul class="button-name">
                 <li>Get it on</li>
-                <li class="button-logo">Goggle play</li>
+                <li class="button-logo">Google play</li>
               </ul>
             </a>
         </div>
@@ -57,7 +57,7 @@
               <source
                 media="(min-width: 961px)"
                 srcset="img/footballer_566.png">
-              <img class="person-img" src="img/footballer_192.png">
+              <img src="img/footballer_192.png">
             </picture>
             <div class="section-content color-grey">
               <div class="section-title">
@@ -93,7 +93,7 @@
               <source
                 media="(min-width: 961px)"
                 srcset="img/basketballer_991.png">
-              <img class="person-img" src="img/basketballer_302.png">
+              <img src="img/basketballer_302.png">
             </picture>
             <div class="section-content color-grey">
               <div class="section-title">
@@ -122,7 +122,7 @@
 
       <div class="actions">
         <section class="action-item">
-          <picture>
+          <picture class="action-img">
             <source
                 media="(min-width: 641px)"
                 srcset="img/be-active_960.jpg">
@@ -131,13 +131,17 @@
                 srcset="img/be-active_1024.jpg">
             <img src="img/be-active_640.jpg" class="action-img" alt="Be active">
           </picture>
-          <span class="section-number">01</span>
-          <h2 class="action-title">Be active</h2>
-          <p class="description">Post videos with your skills, Like and follow others to be more popular.</p>
+          <div class="action-info">
+            <span class="section-number">01</span>
+            <div class="action-content">
+              <h2 class="action-title">Be active</h2>
+              <p class="description">Post videos with your skills, Like and follow others to be more popular.</p>
+            </div>
+          </div>
         </section>
 
         <section class="action-item">
-          <picture>
+          <picture class="action-img">
             <source
                 media="(min-width: 641px)"
                 srcset="img/find-contact_960.jpg">
@@ -146,13 +150,17 @@
                 srcset="img/find-contact_1024.jpg">
             <img src="img/find-contact_640.jpg" class="action-img" alt="Find contact">
           </picture>
-          <span class="section-number">02</span>
-          <h2 class="action-title">Find contact</h2>
-          <p class="description">Contact others to find right coach or athlete you are looking for.</p>
+          <div class="action-info">
+            <span class="section-number">02</span>
+            <div class="action-content">
+              <h2 class="action-title">Find contact</h2>
+              <p class="description">Contact others to find right coach or athlete you are looking for.</p>
+            </div>
+          </div>
         </section>
 
         <section class="action-item">
-          <picture>
+          <picture class="action-img">
             <source
                 media="(min-width: 641px)"
                 srcset="img/work-it_960.jpg">
@@ -161,25 +169,30 @@
                 srcset="img/work-it_1024.jpg">
             <img src="img/work-it_640.jpg" class="action-img" alt="Work it">
           </picture>
-          <span class="section-number">03</span>
-          <h2 class="action-title">Work it</h2>
-          <p class="description">Enjoy being a student athlete, the recruiting process can be overwhelming, we want to make this enjoyable experience.</p>
+          <div class="action-info">
+            <span class="section-number">03</span>
+            <div class="action-content">
+              <h2 class="action-title">Work it</h2>
+              <p class="description">Enjoy being a student athlete, the recruiting process can be overwhelming, we want to make this enjoyable experience.</p>
+            </div>
+          </div>
         </section>
       </div>
     </main>
 
     <footer class="footer">
       <div class="header-wrap">
-        <svg viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/svg" class="logo">
-          <g fill-rule="evenodd">
-            <path d="M115.5 36.848v190.304L253.03 132 115.5 36.848zM282.112 142.28l-172 119c-8.29 5.736-19.612-.198-19.612-10.28V13c0-10.082 11.321-16.016 19.612-10.28l172 119c7.184 4.97 7.184 15.59 0 20.56z" fill-rule="nonzero"/>
-            <path d="M42.5 107h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zm0 70h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zM8 143h168a8 8 0 1 0 0-16H8a8 8 0 1 0 0 16z" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"/>
-          </g>
-        </svg>
-        <h1 class="footer_title">Surface</h1>
-        <div class="footer_slogan">
-          <span class="footer_slogan_first">Download app</span>
-          <span class="footer_slogan_second">Show everyone what you can do!</span>
+        <div class="title-wrap">
+          <svg viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/svg" class="logo">
+            <g fill-rule="evenodd">
+               <path d="M115.5 36.848v190.304L253.03 132 115.5 36.848zM282.112 142.28l-172 119c-8.29 5.736-19.612-.198-19.612-10.28V13c0-10.082 11.321-16.016 19.612-10.28l172 119c7.184 4.97 7.184 15.59 0 20.56z" fill-rule="nonzero"/>
+               <path d="M42.5 107h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zm0 70h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zM8 143h168a8 8 0 1 0 0-16H8a8 8 0 1 0 0 16z" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </svg>
+          <div class="footer-content">
+            <span class="motivation">Download app</span>
+            <span class="tagline">Show everyone what you can do!</span>
+          </div>
         </div>
         <div class="buttons">
           <a href="#0" class="download-button">
@@ -197,7 +210,7 @@
             </svg>
             <ul class="button-name">
               <li>Get it on</li>
-              <li class="button-logo">Goggle play</li>
+              <li class="button-logo">Google play</li>
             </ul>
           </a>
         </div>
